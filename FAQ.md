@@ -12,7 +12,7 @@ Algunos nombres de servidor están restringidos para evitar conflictos con los n
 Al intentar registrar un servidor de SQL Server, se genera el mensaje MSGID=502
 
 ### Solución:
-El servidor de SQL Server tiene registrados varios nombres como servidores de origen de trabajos. Corriga los nombres antes de continuar. La siguiente instrucción T/SQL debería retornar un solo registro. 
+El servidor de SQL Server tiene registrados varios nombres como servidores de origen de trabajos. Corrija los nombres antes de continuar. La siguiente instrucción T/SQL debería retornar un solo registro. 
 
 ```sql
 select [originating_server] from [msdb].[dbo].[sysoriginatingservers_view]
