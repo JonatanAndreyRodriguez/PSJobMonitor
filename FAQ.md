@@ -1,4 +1,4 @@
-#FAQ
+# FAQ
 
 ### Sintoma (MSGID=501):
 Al intentar registrar un servidor de SQL Server, se genera el mensaje MSGID=501
