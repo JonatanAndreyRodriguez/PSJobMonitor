@@ -6,6 +6,7 @@ Al intentar registrar un servidor de SQL Server, se genera el mensaje MSGID=501
 ### Solución:
 Algunos nombres de servidor están restringidos para evitar conflictos con los nombres internos del sistema. Si el nombre del servidor coincide con este nombre, no se podrá registrar. 
 
+------------------
 
 ### Sintoma (MSGID=502):
 Al intentar registrar un servidor de SQL Server, se genera el mensaje MSGID=502
