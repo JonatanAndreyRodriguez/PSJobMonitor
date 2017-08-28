@@ -1,6 +1,6 @@
 # FAQ
 
-### Sintoma (MSGID=501):
+### MSGID=501:
 Al intentar registrar un servidor de SQL Server, se genera el mensaje MSGID=501
 
 ### Solución:
@@ -8,7 +8,7 @@ Algunos nombres de servidor están restringidos para evitar conflictos con los n
 
 ------------------
 
-### Sintoma (MSGID=502):
+### MSGID=502:
 Al intentar registrar un servidor de SQL Server, se genera el mensaje MSGID=502
 
 ### Solución:
