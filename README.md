@@ -11,10 +11,10 @@ Las carpetas corresponden a los siguientes recursos de información:
 
 | Carpeta  | Descripción  |
 |:---|---|
-| [Scripting >> Setup](scripting/setup)  | Describe el proceso de instalación del módulo |
-| [Scripting >> Getting Started >> ConfigJobs](scripting/getting-started/push)  | Funciones que permiten configurar Jobs en la base de Monitoreo |
-| [Scripting >> Getting Started >> ConfigServers](scripting/getting-started/configfiles)  | Funciones que permiten administrar la configuración se servidores |
-| [Scripting >> Getting Started >> CreateGemini](scripting/getting-started/testing)  | Función para creación de Gemini |
-| [Scripting >> Getting Started >> GetInfoJobs](scripting/getting-started/transferfiles)  | Funciones para traer la información de los Jobs Monitoreados |
-| [Scripting >> Getting Started >> ImportInfoJobs](scripting/getting-started/pgp)  | Funciones que permiten traer la información de Jobs de los servidores a Monitoreo |
-| [Scripting >> Getting Started >> RemoveInfoJobs](scripting/getting-started/utils)  | Funciones que permiten remover la información de Jobs de Monitoreo |
+| [Scripting >> Setup](Scripting/setup)  | Describe el proceso de instalación del módulo |
+| [Scripting >> Getting Started >> ConfigJobs](Scripting/getting-started/ConfigJobs)  | Funciones que permiten configurar Jobs en la base de Monitoreo |
+| [Scripting >> Getting Started >> ConfigServers](Scripting/getting-started/ConfigServers)  | Funciones que permiten administrar la configuración se servidores |
+| [Scripting >> Getting Started >> CreateGemini](Scripting/getting-started/CreateGemini)  | Función para creación de Gemini |
+| [Scripting >> Getting Started >> GetInfoJobs](Scripting/getting-started/GetInfoJobs)  | Funciones para traer la información de los Jobs Monitoreados |
+| [Scripting >> Getting Started >> ImportInfoJobs](Scripting/getting-started/ImportInfoJobs)  | Funciones que permiten traer la información de Jobs de los servidores a Monitoreo |
+| [Scripting >> Getting Started >> RemoveInfoJobs](Scripting/getting-started/RemoveInfoJobs)  | Funciones que permiten remover la información de Jobs de Monitoreo |
