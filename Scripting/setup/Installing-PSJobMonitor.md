@@ -4,8 +4,8 @@
 
 Se debe tener instalada la última versión de cada uno de los siguientes módulos:
 
-1. PSGemini. Para mayor información, revisar el siguiente enlace: https://github.com/RD-Processa/PSGemini
-2. PSProcessa. Para mayor información, revisar el siguiente enlace: https://github.com/RD-Processa/PSProcessa
+1. PSGemini (versión 1.2.6436.56403 o superior). Para mayor información, revisar el siguiente enlace: https://github.com/RD-Processa/PSGemini
+2. PSProcessa (versión 1.10.6491.42147 o superior). Para mayor información, revisar el siguiente enlace: https://github.com/RD-Processa/PSProcessa
 
 
 ### Versión Online
