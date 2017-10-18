@@ -20,7 +20,8 @@ Add-MonitoredServer [-ConnectionString] <String[]> [-Force]
 Crea o actualiza la configuracion de los servidores que se van a monitorear guardar en el archivo PSJobMonitor.config.
 Si la cadena de conexión existe, entonces reemplaza los valores actuales por los nuevos.
 Si no existe, se crea una nueva entrada en el archivo.
-\> NOTA: Se necesitan permisos de Administrador para completar la función.
+
+> NOTA: Se necesitan permisos de Administrador para completar la función.
 
 ## EXAMPLES
 
@@ -35,6 +36,7 @@ Agrega una entrada a la configuracion de los servidores de SQLServer que se van 
 
 ### -ConnectionString
 Cadena de conexión que se debe agregar a los servidores que están siendo monitoreados.
+
 > NOTA: El usuario en la cadena de conexión debe tener permisos de conexión (al menos en modo lectura) con la base de datos msbd de la instancia especificada.
 
 ```yaml
