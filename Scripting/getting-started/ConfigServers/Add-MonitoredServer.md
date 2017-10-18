@@ -74,14 +74,14 @@ Accept wildcard characters: False
 
 ## NOTES
 
+Autor: CFranco
+Modificaciones: 2017-07-26 Atorres. Se mejora documentación. Se corrige manejo del Pipeline.]()
+
+
 ## RELATED LINKS
 
 [Get-MonitoredServer](Get-MonitoredServer.md)
 
 [Remove-MonitoredServer](Remove-MonitoredServer.md)
 
-
-.NOTES:
-Autor: CFranco
-Modificaciones: 2017-07-26 Atorres. Se mejora documentación. Se corrige manejo del Pipeline.]()
 
