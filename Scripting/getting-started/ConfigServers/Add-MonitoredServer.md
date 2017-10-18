@@ -68,11 +68,11 @@ Accept wildcard characters: False
 
 ## INPUTS
 
-### Puede canalizar el valor de ConnectionString.
+Puede canalizar el valor de ConnectionString.
 
 ## OUTPUTS
 
-### Processa.Management.Automation.JobMonitor.MonitoredServer
+Processa.Management.Automation.JobMonitor.MonitoredServer
 
 ## NOTES
 
