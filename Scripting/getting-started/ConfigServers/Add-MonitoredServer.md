@@ -12,7 +12,7 @@ Crea o actualiza la configuracion de los servidores de SQLServer que se van a mo
 
 ## SYNTAX
 
-```
+```powershell
 Add-MonitoredServer [-ConnectionString] <String[]> [-Force]
 ```
 
@@ -25,7 +25,7 @@ Si no existe, se crea una nueva entrada en el archivo.
 ## EXAMPLES
 
 ### -------------------------- EXAMPLE 1 --------------------------
-```
+```powershell
 Add-MonitoredServer -ConnectionString 'Data Source=MyServer;Initial Catalog=Master;User ID=Usuario;Password=Pwd'
 ```
 
@@ -76,9 +76,9 @@ Accept wildcard characters: False
 
 ## RELATED LINKS
 
-[[Get-MonitoredServer](Get-MonitoredServer.md)]()
+[Get-MonitoredServer](Get-MonitoredServer.md)
 
-[[Remove-MonitoredServer](Remove-MonitoredServer.md)
+[Remove-MonitoredServer](Remove-MonitoredServer.md)
 
 
 .NOTES:
