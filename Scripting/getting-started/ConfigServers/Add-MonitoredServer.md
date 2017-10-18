@@ -35,7 +35,7 @@ Agrega una entrada a la configuracion de los servidores de SQLServer que se van 
 
 ### -ConnectionString
 Cadena de conexión que se debe agregar a los servidores que están siendo monitoreados.
-\> NOTA: El usuario en la cadena de conexión debe tener permisos de conexión (al menos en modo lectura) con la base de datos msbd de la instancia especificada.
+> NOTA: El usuario en la cadena de conexión debe tener permisos de conexión (al menos en modo lectura) con la base de datos msbd de la instancia especificada.
 
 ```yaml
 Type: String[]
