@@ -74,8 +74,9 @@ Accept wildcard characters: False
 
 ## NOTES
 
-Autor: CFranco
-Modificaciones: 2017-07-26 Atorres. Se mejora documentación. Se corrige manejo del Pipeline.]()
+- Autor: CFranco
+- Modificaciones: 2017-07-26 Atorres. Se mejora documentación. Se corrige manejo del Pipeline.
+- Modificaciones: 2017-10-11 Cfranco. Se elimina el Force.
 
 
 ## RELATED LINKS
