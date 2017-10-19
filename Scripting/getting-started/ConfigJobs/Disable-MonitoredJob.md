@@ -69,9 +69,9 @@ Accept wildcard characters: False
 
 ## RELATED LINKS
 
-[[Get-MonitoredJob](Get-MonitoredJob.md)]()
+[Get-MonitoredJob](Get-MonitoredJob.md)()
 
-[[Get-MonitoredServer](Get-MonitoredServer.md)]()
+[Get-MonitoredServer](Get-MonitoredServer.md)()
 
-[[Enable-MonitoredJob](Enable-MonitoredJob.md)]()
+[Enable-MonitoredJob](Enable-MonitoredJob.md)()
 
