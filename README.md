@@ -2,7 +2,7 @@
 
 Permite monitorear la ejecución de trabajos de SQL Sever a través de una tarea automatizada.
 
-![Curent release](https://img.shields.io/badge/version-1.0.0000.00000-f39f37.svg)
+![Curent release](https://img.shields.io/badge/version-1.1.6495.56114-f39f37.svg)
 
 
 ## Estructura de la documentación
