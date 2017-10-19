@@ -12,7 +12,7 @@ Deshabilita el Monitoreo de un Job para NO tenerlo en cuenta en los procesos de 
 
 ## SYNTAX
 
-```
+```powershell
 Disable-MonitoredJob [-InputObject] <Object>
 ```
 
