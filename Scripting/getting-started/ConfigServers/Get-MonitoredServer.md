@@ -12,7 +12,7 @@ Obtiene la configuracion de los servidores de SQLServer que se van a monitorear.
 
 ## SYNTAX
 
-```
+```powershell
 Get-MonitoredServer [[-Name] <String>]
 ```
 
@@ -22,14 +22,14 @@ Obtiene la configuracion de los servidores de SQLServer que se van a monitorear 
 ## EXAMPLES
 
 ### -------------------------- EXAMPLE 1 --------------------------
-```
+```powershell
 Get-MonitoredServer
 ```
 
 Obtiene la información de todos los servidores que se están monitoreando.
 
 ### -------------------------- EXAMPLE 2 --------------------------
-```
+```powershell
 Get-MonitoredServer -Name '*MyServer*'
 ```
 
@@ -57,17 +57,16 @@ Accept wildcard characters: True
 
 ## INPUTS
 
-### Ninguno
+Ninguno
 
 ## OUTPUTS
 
-### Processa.Management.Automation.PSJobMonitor.MonitoredServer
+Processa.Management.Automation.PSJobMonitor.MonitoredServer
 
 ## NOTES
+- Autor: Atorres
 
 ## RELATED LINKS
 
-[[Set-MonitoredServer](Set-MonitoredServer.md)]()
-
-[[Remove-MonitoredServer](Remove-MonitoredServer.md)]()
+[Remove-MonitoredServer](Remove-MonitoredServer.md)
 
