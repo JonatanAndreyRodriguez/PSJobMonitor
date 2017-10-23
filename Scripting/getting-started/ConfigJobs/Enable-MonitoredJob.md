@@ -56,7 +56,8 @@ Autor: Atorres
 
 ## RELATED LINKS
 
-[[Disable-MonitoredJob](Disable-MonitoredJob.md)]
+[Disable-MonitoredJob](Disable-MonitoredJob.md)
 
-[[Get-UnMonitoredJob](https://github.com/RD-Processa/PSJobMonitor/blob/master/Scripting/getting-started/GetInfoJobs/Get-UnmonitoredJob.md)]
-[[Get-MonitoredServer](https://github.com/RD-Processa/PSJobMonitor/blob/master/Scripting/getting-started/ConfigServers/Get-MonitoredServer.md)]
+[Get-UnMonitoredJob](https://github.com/RD-Processa/PSJobMonitor/blob/master/Scripting/getting-started/GetInfoJobs/Get-UnmonitoredJob.md)
+
+[Get-MonitoredServer](https://github.com/RD-Processa/PSJobMonitor/blob/master/Scripting/getting-started/ConfigServers/Get-MonitoredServer.md)
