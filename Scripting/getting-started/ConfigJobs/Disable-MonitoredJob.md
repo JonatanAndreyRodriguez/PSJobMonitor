@@ -22,19 +22,19 @@ Deshabilita el Monitoreo de un Job para NO tenerlo en cuenta en los procesos de 
 ## EXAMPLES
 
 ### -------------------------- EXAMPLE 1 --------------------------
-```
+```powershell
 Get-MonitoredServer | Get-MonitoredJob | Disable-MonitoredJob
 ```
 
 ### -------------------------- EXAMPLE 2 --------------------------
-```
+```powershell
 Get-MonitoredServer | Get-MonitoredJob -Name 'MyJob' | Disable-MonitoredJob
 ```
 
 Deshabilita el monitoreo del job con nombre 'MyJob'
 
 ### -------------------------- EXAMPLE 3 --------------------------
-```
+```powershell
 Get-MonitoredServer | Get-MonitoredJob -JobId '255298ab-7712-49e6-a4e8-9fcb1ccd925d' | Disable-MonitoredJob
 ```
 
