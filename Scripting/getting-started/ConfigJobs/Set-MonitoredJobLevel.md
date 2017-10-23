@@ -42,18 +42,30 @@ Objetos para los cuales se establece el nivel de criticidad.
 ### -Critical
 El job se marca como critico. Afecta los ANS con los clientes.
 
-### -NonCritical
-El job se marca como no critico.
-
 ```yaml
-Type: Object
+Type: SwitchParameter
 Parameter Sets: (All)
 Aliases: 
 
 Required: True
 Position: Named
-Default value: None
-Accept pipeline input: True (ByPropertyName, ByValue)
+Default value: True
+Accept pipeline input: False
+Accept wildcard characters: False
+```
+
+### -NonCritical
+El job se marca como no critico.
+
+```yaml
+Type: SwitchParameter
+Parameter Sets: (All)
+Aliases: 
+
+Required: True
+Position: Named
+Default value: True
+Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
