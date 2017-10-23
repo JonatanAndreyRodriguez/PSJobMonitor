@@ -45,18 +45,19 @@ Accept wildcard characters: False
 ```
 
 ## INPUTS
+Puede canalizar el valor de InputObject desde la función Get-UnMonitoredJob.
 
 ## OUTPUTS
 
 ### System.Void
 
 ## NOTES
+Autor: Atorres
 
 ## RELATED LINKS
+
+[[Disable-MonitoredJob](Disable-MonitoredJob.md)]
 
 [[Get-MonitoredJob](Get-MonitoredJob.md)]()
 
 [[Get-MonitoredServer](Get-MonitoredServer.md)]()
-
-[[Disable-MonitoredJob](Disable-MonitoredJob.md)]()
-
