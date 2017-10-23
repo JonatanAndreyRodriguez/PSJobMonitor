@@ -12,7 +12,7 @@ Obtiene la información de los datos de configuración del módulo.
 
 ## SYNTAX
 
-```
+```powershell
 Get-Configuration
 ```
 
@@ -22,23 +22,18 @@ Obtiene la información de los datos de configuración del módulo.
 ## EXAMPLES
 
 ### -------------------------- EXAMPLE 1 --------------------------
-```
+```powershell
 Get-Configuration
 ```
 
 Obtiene la información de configuración del módulo.
 
 ### -------------------------- EXAMPLE 2 --------------------------
-```
+```powershell
 Get-Configuration | Format-List
 ```
 
 Obtiene la información de configuración del módulo en formato de lista.
-
-.NOTES:
-Autor: CFranco
-Modificaciones: 2017-07-26 Atorres.
-Se mejora documentación y se establecen los tipos de retorno.
 
 ## PARAMETERS
 
@@ -51,10 +46,13 @@ Se mejora documentación y se establecen los tipos de retorno.
 ### Processa.Management.Automation.PSJobMonitor.ConfigInfo
 
 ## NOTES
+Autor: CFranco
+Modificaciones: 2017-07-26 Atorres.
+Se mejora documentación y se establecen los tipos de retorno.
 
 ## RELATED LINKS
 
-[[Set-Configuration](Set-Configuration.md)]()
+[Set-Configuration](Set-Configuration.md)
 
-[[Test-Configuration](Test-Configuration.md)]()
+[Test-Configuration](Test-Configuration.md)
 
