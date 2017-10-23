@@ -13,7 +13,7 @@ Crea o actualiza la configuracion de los servidores de SQLServer que se van a mo
 ## SYNTAX
 
 ```powershell
-Add-MonitoredServer [-ConnectionString] <String[]> [-Force]
+Add-MonitoredServer [-ConnectionString] <String[]>
 ```
 
 ## DESCRIPTION
@@ -48,21 +48,6 @@ Required: True
 Position: 1
 Default value: None
 Accept pipeline input: True (ByPropertyName, ByValue)
-Accept wildcard characters: False
-```
-
-### -Force
-Cuando está presente, omite la validación de conexión, es decir, guarda el valor sin comprobar la conexión.
-
-```yaml
-Type: SwitchParameter
-Parameter Sets: (All)
-Aliases: 
-
-Required: False
-Position: Named
-Default value: False
-Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
