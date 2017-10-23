@@ -48,8 +48,7 @@ Accept wildcard characters: False
 Puede canalizar el valor de InputObject desde la función Get-UnMonitoredJob.
 
 ## OUTPUTS
-
-### System.Void
+System.Void
 
 ## NOTES
 Autor: Atorres
