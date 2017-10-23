@@ -12,9 +12,13 @@ Establece el nivel de criticidad de un job.
 
 ## SYNTAX
 
+```powershell
+Set-MonitoredJobLevel [-InputObject] <Object> 
+```
+
 ### Critical
 ```
-Set-MonitoredJobLevel -InputObject <Object> [-Critical]
+Set-MonitoredJobLevel -InputObject <Object> -Critical <switch> -NonCritical <switch>
 ```
 
 ### NonCritical
