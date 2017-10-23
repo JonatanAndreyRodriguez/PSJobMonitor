@@ -23,7 +23,7 @@ Se genera una excepción si falla alguna comprobación.
 ## EXAMPLES
 
 ### -------------------------- EXAMPLE 1 --------------------------
-```
+```powershell
 Test-Configuration -Verbose
 ```
 
@@ -32,7 +32,7 @@ Verifica la configuración del módulo y muestra mensajes en pantalla de cada va
 ## PARAMETERS
 
 ### -SaveFlag
-{{Fill SaveFlag Description}}
+Si está presente, se guardará la configuración.
 
 ```yaml
 Type: SwitchParameter
