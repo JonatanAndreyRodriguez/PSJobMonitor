@@ -35,7 +35,7 @@ Ninguno.
 
 ## OUTPUTS
 
-### System.Void
+System.Void
 
 ## NOTES
 - Autor: CFranco
