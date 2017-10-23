@@ -43,7 +43,7 @@ Deshabilita el monitoreo del job con identificador '255298ab-7712-49e6-a4e8-9fcb
 ## PARAMETERS
 
 ### -InputObject
-{{Fill InputObject Description}}
+Objeto de tipo Processa.Management.Automation.PSJobMonitor.SqlJobDetail.
 
 ```yaml
 Type: Object
