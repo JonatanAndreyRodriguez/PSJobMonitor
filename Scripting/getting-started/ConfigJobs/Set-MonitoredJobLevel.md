@@ -21,14 +21,14 @@ Establece el nivel de criticidad de un job. Este nivel determina el flujo de rep
 ## EXAMPLES
 
 ### -------------------------- EXAMPLE 1 --------------------------
-```
+```powershell
 Get-MonitoredServer | Get-MonitoredJob | Set-MonitoredJobLevel -Critical
 ```
 
 Establece todos los trabajos registrados como criticos.
 
 ### -------------------------- EXAMPLE 2 --------------------------
-```
+```powershell
 Get-MonitoredServer | Get-MonitoredJob | Set-MonitoredJobLevel -NonCritical
 ```
 
@@ -68,7 +68,7 @@ Autor: Atorres
 
 ## RELATED LINKS
 
-[[Get-MonitoredJob](Get-MonitoredJob.md)]()
+[Get-MonitoredJob](Get-MonitoredJob.md)(https://github.com/RD-Processa/PSJobMonitor/blob/master/Scripting/getting-started/GetInfoJobs/Get-MonitoredJob.md)
 
-[[Get-MonitoredServer](Get-MonitoredServer.md)]()
+[Get-MonitoredServer](Get-MonitoredServer.md)(https://github.com/RD-Processa/PSJobMonitor/blob/master/Scripting/getting-started/ConfigServers/Get-MonitoredServer.md)
 
