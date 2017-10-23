@@ -12,7 +12,7 @@ Establece la información de los datos de configuración del módulo.
 
 ## SYNTAX
 
-```
+```powershell
 Set-Configuration
 ```
 
@@ -22,30 +22,28 @@ Establece la información de los datos de configuración del módulo y los guard
 ## EXAMPLES
 
 ### -------------------------- EXAMPLE 1 --------------------------
-```
+```powershell
 Set-Configuration
 ```
 
 Muestra el cuadro de dialogo para establecer los valores de configuración.
 
-.NOTES:
-Autor: CFranco
-Modificaciones: 2017-07-26 Atorres.
-Se mejora documentación.
-
 ## PARAMETERS
 
 ## INPUTS
+Ninguno.
 
 ## OUTPUTS
 
 ### System.Void
 
 ## NOTES
+- Autor: CFranco
+- Modificaciones: 2017-07-26 Atorres. Se mejora documentación.
 
 ## RELATED LINKS
 
-[[Get-Configuration](Get-Configuration.md)]()
+[Get-Configuration](Get-Configuration.md)
 
-[[Test-Configuration](Test-Configuration.md)]()
+[Test-Configuration](Test-Configuration.md)
 
