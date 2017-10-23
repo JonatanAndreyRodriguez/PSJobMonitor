@@ -59,13 +59,14 @@ Accept wildcard characters: False
 
 ## INPUTS
 
-### Puede canalizar el valor de InputObject desde la función Get-MonitoredJob.
+Puede canalizar el valor de InputObject desde la función Get-MonitoredJob.
 
 ## OUTPUTS
 
-### System.Void
+System.Void
 
 ## NOTES
+Autor: Atorres
 
 ## RELATED LINKS
 
