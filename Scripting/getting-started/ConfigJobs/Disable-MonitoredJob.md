@@ -17,7 +17,7 @@ Disable-MonitoredJob [-InputObject] <Object>
 ```
 
 ## DESCRIPTION
-{{Fill in the Description}}
+Deshabilita el Monitoreo de un Job para NO tenerlo en cuenta en los procesos de Jobs No Criticos, Cri-ticos y demorados.
 
 ## EXAMPLES
 
