@@ -12,25 +12,25 @@ Elimina un servidor de monitoreo de SQLServer de la configuración.
 
 ## SYNTAX
 
-```
+```powershell
 Remove-MonitoredServer [-Name] <String[]>
 ```
 
 ## DESCRIPTION
 Elimina un servidor de la configuracion de los servidores de SQLServer que se van a monitorear.
-\> NOTA: Se necesitan permisos de Administrador para completar la función.
+> NOTA: Se necesitan permisos de Administrador para completar la función.
 
 ## EXAMPLES
 
 ### -------------------------- EXAMPLE 1 --------------------------
-```
+```powershell
 Remove-MonitoredServer -Name 'MyName'
 ```
 
 Elimina de la configuracion el servidor identificado con el nombre MyName.
 
 ### -------------------------- EXAMPLE 2 --------------------------
-```
+```powershell
 Get-MonitoredServer | Remove-MonitoredServer
 ```
 
@@ -54,16 +54,17 @@ Accept wildcard characters: False
 ```
 
 ## INPUTS
+Puede canalizar el valor de Get-MonitoredServer.
 
 ## OUTPUTS
 
-### System.Void
+System.Void
 
 ## NOTES
+- Autor: CFranco
+- Modificaciones: 2017-07-26 Atorres. Se mejora documentación. Se corrige manejo del Pipeline.
 
 ## RELATED LINKS
 
-[[Add-MonitoredServer](Add-MonitoredServer.md)]()
-
-[[Set-MonitoredServer](Set-MonitoredServer.md)]()
+[Add-MonitoredServer](Add-MonitoredServer.md)
 
