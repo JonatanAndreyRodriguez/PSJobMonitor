@@ -43,12 +43,12 @@ Obtiene la información de configuración del módulo en formato de lista.
 
 ## OUTPUTS
 
-### Processa.Management.Automation.PSJobMonitor.ConfigInfo
+Processa.Management.Automation.PSJobMonitor.ConfigInfo
 
 ## NOTES
-Autor: CFranco
-Modificaciones: 2017-07-26 Atorres.
-Se mejora documentación y se establecen los tipos de retorno.
+- Autor: CFranco
+- Modificaciones: 2017-07-26 Atorres.
+- Se mejora documentación y se establecen los tipos de retorno.
 
 ## RELATED LINKS
 
