@@ -12,7 +12,7 @@ Habilita un Job para tenerlo en cuenta en los procesos de monitoreo.
 
 ## SYNTAX
 
-```
+```powershell
 Enable-MonitoredJob [-InputObject] <Object>
 ```
 
