@@ -69,10 +69,5 @@ System.Void
 Autor: Atorres
 
 ## RELATED LINKS
-
-[Get-MonitoredJob](Get-MonitoredJob.md)()
-
-[Get-MonitoredServer](Get-MonitoredServer.md)()
-
-[Enable-MonitoredJob](Enable-MonitoredJob.md)()
+[Enable-MonitoredJob](Enable-MonitoredJob.md)
 
