@@ -23,7 +23,7 @@ Por defecto los jobs se importan habilitados.
 ## EXAMPLES
 
 ### -------------------------- EXAMPLE 1 --------------------------
-```
+```powershell
 Get-MonitoredServer | Get-UnMonitoredJob | Enable-MonitoredJob
 ```
 
