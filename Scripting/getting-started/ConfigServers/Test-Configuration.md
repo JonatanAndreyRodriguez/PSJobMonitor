@@ -12,7 +12,7 @@ Verifica la información de los datos de configuración del módulo.
 
 ## SYNTAX
 
-```
+```powershell
 Test-Configuration [-SaveFlag]
 ```
 
@@ -28,11 +28,6 @@ Test-Configuration -Verbose
 ```
 
 Verifica la configuración del módulo y muestra mensajes en pantalla de cada validación.
-
-.NOTES:
-Autor: CFranco
-Modificaciones: 2017-07-26 Atorres.
-Se mejora documentación y se establecen los tipos de retorno.
 
 ## PARAMETERS
 
@@ -53,15 +48,20 @@ Accept wildcard characters: False
 
 ## INPUTS
 
+Ninguno.
+
 ## OUTPUTS
 
-### System.Void
+System.Void
 
 ## NOTES
+ - Autor: CFranco
+ - Modificaciones: 2017-07-26 Atorres.
+ - Se mejora documentación y se establecen los tipos de retorno.
 
 ## RELATED LINKS
 
-[[Set-Configuration](Set-Configuration.md)]()
+[Set-Configuration](Set-Configuration.md)
 
-[[Get-Configuration](Get-Configuration.md)]()
+[Get-Configuration](Get-Configuration.md)
 
