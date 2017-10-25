@@ -139,4 +139,4 @@ Processa.Automation.PSJobMonitor.SqlJobHistory
 Autor: Atorres
 
 ## RELATED LINKS
-[Get-SqlJobDetail](Get-SqlJobDetail)
+[Get-SqlJobDetail](Get-SqlJobDetail.md)
