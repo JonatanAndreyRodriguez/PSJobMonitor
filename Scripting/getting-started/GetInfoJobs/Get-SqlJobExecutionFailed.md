@@ -28,7 +28,7 @@ Obtiene la información de los jobs que terminaron con errrores de ejecución.
 ## EXAMPLES
 
 ### -------------------------- EXAMPLE 1 --------------------------
-```
+```powershell
 Get-MonitoredServer | Get-SqlJobExecutionFailed
 ```
 
