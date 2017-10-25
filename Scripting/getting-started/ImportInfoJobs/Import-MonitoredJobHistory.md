@@ -8,28 +8,28 @@ schema: 2.0.0
 # Import-MonitoredJobHistory
 
 ## SYNOPSIS
-Importa la informaci ³n del hist ³rico de jobs en una base de datos a la base de datos local de Monitoreo.
+Importa la información del histórico de jobs en una base de datos a la base de datos local de Monitoreo.
 
 ## SYNTAX
 
-```
+```powershell
 Import-MonitoredJobHistory [-InputObject] <Object>
 ```
 
 ## DESCRIPTION
-Importa la informaci ³n del hist ³rico de jobs en una base de datos a la base de datos local de Monitoreo.
+Importa la información del histórico de jobs en una base de datos a la base de datos local de Monitoreo.
 
 ## EXAMPLES
 
 ### -------------------------- EXAMPLE 1 --------------------------
-```
+```powershell
 Get-MonitoredServer | Get-SqlJobDetail | Get-SqlJobExecutionHistory | Import-MonitoredJobHistory
 ```
 
 ## PARAMETERS
 
 ### -InputObject
-Inofrmaci ³n del job a importar.
+Inofrmación del job a importar.
 
 ```yaml
 Type: Object
@@ -44,23 +44,18 @@ Accept wildcard characters: False
 ```
 
 ## INPUTS
-
-### Puede canalizar el valor de InputObject desde la funci ³n Get-SqlJobExecutionHistory.
+Puede canalizar el valor de InputObject desde la función Get-SqlJobExecutionHistory.
 
 ## OUTPUTS
-
-### System.Void
+System.Void
 
 ## NOTES
+Autor: CFranco
 
 ## RELATED LINKS
 
-[[Get-MonitoredServer](Get-MonitoredServer.md)]()
+[Get-MonitoredServer](https://github.com/RD-Processa/PSJobMonitor/blob/master/Scripting/getting-started/ConfigServers/Get-MonitoredServer.md)
 
-[[Get-SqlJobDetail](Get-SqlJobDetail.md)]()
+[Get-SqlJobDetail](https://github.com/RD-Processa/PSJobMonitor/blob/master/Scripting/getting-started/GetInfoJobs/Get-SqlJobDetail.md)
 
-[[Get-SqlJobExecutionHistory](Get-SqlJobExecutionHistory.md)
-
-.NOTES:
-Autor: CFranco]()
-
+[Get-SqlJobExecutionHistory](https://github.com/RD-Processa/PSJobMonitor/blob/master/Scripting/getting-started/GetInfoJobs/Get-SqlJobExecutionHistory.md)
