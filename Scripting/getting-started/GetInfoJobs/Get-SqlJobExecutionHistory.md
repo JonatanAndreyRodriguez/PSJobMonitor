@@ -13,12 +13,12 @@ Obtiene el historial de ejecuciones de los trabajos suministrados.
 ## SYNTAX
 
 ### ByFrame (Default)
-```
+```powershell
 Get-SqlJobExecutionHistory -InputObject <Object> [-Since <String>] [-OutcomesType <String>]
 ```
 
 ### ByDate
-```
+```powershell
 Get-SqlJobExecutionHistory -InputObject <Object> -StartRunDate <DateTime> [-OutcomesType <String>]
 ```
 
@@ -28,14 +28,14 @@ Obtiene el historial de ejecuciones de los trabajos suministrados en InputObject
 ## EXAMPLES
 
 ### -------------------------- EXAMPLE 1 --------------------------
-```
+```powershell
 Get-MonitoredServer | Get-SqlJobDetail | Get-SqlJobExecutionHistory
 ```
 
 Obtiene el historial de ejecuciones de todos los trabajos en todos los servidores.
 
 ### -------------------------- EXAMPLE 2 --------------------------
-```
+```powershell
 Get-MonitoredServer -Name 'Server' | Get-SqlJobDetail -Name 'Job' | Get-SqlJobExecutionHistory
 ```
 
@@ -130,14 +130,13 @@ Accept wildcard characters: False
 ```
 
 ## INPUTS
-
-### Puede canalizar el valor de InputObject desde la función Get-SqlJobDetail.
+Puede canalizar el valor de InputObject desde la función Get-SqlJobDetail.
 
 ## OUTPUTS
-
-### Processa.Automation.PSJobMonitor.SqlJobHistory
+Processa.Automation.PSJobMonitor.SqlJobHistory
 
 ## NOTES
+Autor: Atorres
 
 ## RELATED LINKS
-
+[Get-SqlJobDetail](https://github.com/RD-Processa/PSJobMonitor/blob/master/Scripting/getting-started/ConfigServers/Get-MonitoredServer.md)
