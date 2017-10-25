@@ -66,8 +66,8 @@ Puede canalizar el valor de InputObject desde la función Get-SqlJobDetail.
 Processa.Management.Automation.PSJobMonitor.ConflicingtJob
 
 ## NOTES
-Autor: CFranco
-Modificaciones: 2017-07-26 Atorres. Se mejora documentación. Se corrige manejo del Pipeline.
+- Autor: CFranco
+- Modificaciones: 2017-07-26 Atorres. Se mejora documentación. Se corrige manejo del Pipeline.
 
 ## RELATED LINKS
 
