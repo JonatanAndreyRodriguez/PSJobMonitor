@@ -8,21 +8,21 @@ schema: 2.0.0
 # Get-MonitoredJobNonCritical
 
 ## SYNOPSIS
-Obtiene la información de los jobs registrados como NO criticos que están siendo monitoreados.
+Obtiene la información de los jobs registrados como no criticos que están siendo monitoreados.
 
 ## SYNTAX
 
-```
+```powershell
 Get-MonitoredJobNonCritical [-InputObject] <Object> [[-JobId] <Guid>] [[-Name] <String>]
 ```
 
 ## DESCRIPTION
-Obtiene la información de los jobs registrados como NO criticos que están siendo monitoreados.
+Obtiene la información de los jobs registrados como no criticos que están siendo monitoreados.
 
 ## EXAMPLES
 
 ### -------------------------- EXAMPLE 1 --------------------------
-```
+```powershell
 Get-MonitoredServer | Get-MonitoredJobNonCritical
 ```
 
@@ -77,17 +77,17 @@ Accept wildcard characters: True
 ```
 
 ## INPUTS
-
-### Puede canalizar el valor de InputObject desde la función Get-MonitoredServer.
+Puede canalizar el valor de InputObject desde la función Get-MonitoredServer.
 
 ## OUTPUTS
-
-### Processa.Management.Automation.PSJobMonitor.SqlJobDetail
+Processa.Management.Automation.PSJobMonitor.SqlJobDetail
 
 ## NOTES
 Autor: Atorres
 
 ## RELATED LINKS
 
-[[Get-MonitoredJobCritical](Get-MonitoredJobCritical.md)]()
+[Get-MonitoredJobCritical](Get-MonitoredJobCritical.md)
+
+[Get-MonitoredServer](https://github.com/RD-Processa/PSJobMonitor/blob/master/Scripting/getting-started/ConfigServers/Get-MonitoredServer.md)
 
