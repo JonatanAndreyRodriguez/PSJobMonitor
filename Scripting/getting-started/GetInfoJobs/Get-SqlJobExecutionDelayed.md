@@ -14,7 +14,7 @@ en la variable "JobDelayIndicatorMinutes".
 
 ## SYNTAX
 
-```
+```powershell
 Get-SqlJobExecutionDelayed [-InputObject] <Object> [[-Name] <String>]
 ```
 
@@ -26,7 +26,7 @@ Puede utilizar las funciones Get-Configuration y Set-Configuration para leer o a
 ## EXAMPLES
 
 ### -------------------------- EXAMPLE 1 --------------------------
-```
+```powershell
 Get-MonitoredServer | Get-SqlJobExecutionDelayed
 ```
 
@@ -50,7 +50,7 @@ Accept wildcard characters: False
 ```
 
 ### -Name
-{{Fill Name Description}}
+Nombre del Job a buscar.
 
 ```yaml
 Type: String
@@ -65,16 +65,15 @@ Accept wildcard characters: False
 ```
 
 ## INPUTS
-
-### Puede canalizar el valor de InputObject desde la función Get-MonitoredServer.
+Puede canalizar el valor de InputObject desde la función Get-MonitoredServer.
 
 ## OUTPUTS
-
-### Processa.Management.Automation.PSJobMonitor.SqlJobOutcome
+Processa.Management.Automation.PSJobMonitor.SqlJobOutcome
 
 ## NOTES
+Autor: Atorres
 
 ## RELATED LINKS
 
-[[Get-MonitoredServer](Get-MonitoredServer.md)]()
+[Get-MonitoredServer](https://github.com/RD-Processa/PSJobMonitor/blob/master/Scripting/getting-started/ConfigServers/Get-MonitoredServer.md)
 
