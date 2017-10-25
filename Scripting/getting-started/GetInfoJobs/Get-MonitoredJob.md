@@ -12,7 +12,7 @@ Obtiene el listado de los jobs que se han registrado para monitoreo.
 
 ## SYNTAX
 
-```
+```powershell
 Get-MonitoredJob [-InputObject] <Object> [[-JobId] <Guid>] [[-Name] <String>] [[-Level] <String>]
 ```
 
@@ -23,28 +23,28 @@ Los jobs se registran a través de la función Import-MonitoredJob.
 ## EXAMPLES
 
 ### -------------------------- EXAMPLE 1 --------------------------
-```
+```powershell
 Get-MonitoredServer | Get-MonitoredJob
 ```
 
 Obtiene la información de todos los jobs que están siendo monitoreados en todos los servidores.
 
 ### -------------------------- EXAMPLE 2 --------------------------
-```
+```powershell
 Get-MonitoredServer | Get-MonitoredJob  -Level Critical
 ```
 
 Obtiene la información de todos los jobs que están siendo monitoreados en todos los servidores, marcados como críticos.
 
 ### -------------------------- EXAMPLE 3 --------------------------
-```
+```powershell
 Get-MonitoredServer | Get-MonitoredJob  -Level NonCritical
 ```
 
 Obtiene la información de todos los jobs que están siendo monitoreados en todos los servidores, marcados como no críticos.
 
 ### -------------------------- EXAMPLE 4 --------------------------
-```
+```powershell
 Get-MonitoredServer | Get-MonitoredJob -Name 'Pru*'
 ```
 
@@ -118,18 +118,15 @@ Accept wildcard characters: False
 ```
 
 ## INPUTS
-
-### Puede canalizar el valor de InputObject desde la función Get-MonitoredServer.
+Puede canalizar el valor de InputObject desde la función Get-MonitoredServer.
 
 ## OUTPUTS
-
-### Processa.Management.Automation.PSJobMonitor.SqlJobDetail
+Processa.Management.Automation.PSJobMonitor.SqlJobDetail
 
 ## NOTES
+Autor: Atorres.
 
 ## RELATED LINKS
 
-[[Get-MonitorServer](Get-MonitorServer.md)]()
-
-[[Get-UnMonitoredJob](Get-UnMonitoredJob.md)]()
+[Get-MonitoredServer](https://github.com/RD-Processa/PSJobMonitor/blob/master/Scripting/getting-started/ConfigServers/Get-MonitoredServer.md)
 
