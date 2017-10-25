@@ -12,7 +12,7 @@ Importa la información de jobs en una base de datos a la base de datos local de
 
 ## SYNTAX
 
-```
+```powershell
 Import-MonitoredJob [-InputObject] <Object> [-Force] [-WhatIf] [-Confirm]
 ```
 
@@ -23,7 +23,7 @@ Por defecto los jobs se importan habilitados y marcados como no críticos.
 ## EXAMPLES
 
 ### -------------------------- EXAMPLE 1 --------------------------
-```
+```powershell
 Get-MonitoredServer | Get-SqlJobDetail | Import-MonitoredJob
 ```
 
@@ -91,24 +91,17 @@ Accept wildcard characters: False
 ```
 
 ## INPUTS
-
-### Puede canalizar el valor de InputObject desde la función Get-SqlJobDetail.
+Puede canalizar el valor de InputObject desde la función Get-SqlJobDetail.
 
 ## OUTPUTS
-
-### System.Void
-
-### Processa.Management.Automation.JobMonitor.ConflicingtJob
+Processa.Management.Automation.PSJobMonitor.ConflicingtJob
 
 ## NOTES
+Autor: CFranco
+Modificaciones: 2017-07-26 Atorres. Se mejora documentación. Se corrige manejo del Pipeline.
 
 ## RELATED LINKS
 
-[[Get-MonitoredServer](Get-MonitoredServer.md)]()
+[Get-MonitoredServer](https://github.com/RD-Processa/PSJobMonitor/blob/master/Scripting/getting-started/ConfigServers/Get-MonitoredServer.md)
 
-[[Get-SqlJobDetail](Get-SqlJobDetail.md)
-
-.NOTES:
-Autor: CFranco
-Modificaciones: 2017-07-26 Atorres. Se mejora documentación. Se corrige manejo del Pipeline.]()
-
+[Get-SqlJobDetail](https://github.com/RD-Processa/PSJobMonitor/blob/master/Scripting/getting-started/GetInfoJobs/Get-SqlJobDetail.md)
