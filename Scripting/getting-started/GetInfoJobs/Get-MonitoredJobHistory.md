@@ -12,29 +12,30 @@ Obtiene el historial de los Jobs de la base de datos de Monitoreo.
 
 ## SYNTAX
 
-```
+```powershell
 Get-MonitoredJobHistory [-InputObject] <Object> [[-JobId] <Guid>] [[-Name] <String>] [[-Level] <String>]
  [[-Monitored] <String>]
 ```
 
 ## DESCRIPTION
-Obtiene el historial de los Jobs de la base de datos de Monitoreo.
+Obtiene el historial de los Jobs de la base de datos de Monitoreo. El historial se registra a través de la 
+función Import-MonitoredJobHistory.
 
 ## EXAMPLES
 
 ### -------------------------- EXAMPLE 1 --------------------------
-```
+```powershell
 Get-MonitoredServer | Get-MonitoredJobHistory
 ```
 
 Obtiene la informaci ³n de todos los historicos de todos los Jobs que est ¡n siendo monitoreados en todos los servidores.
 
 ### -------------------------- EXAMPLE 2 --------------------------
-```
+```powershell
 Get-MonitoredServer | Get-MonitoredJobHistory  -Level Critical
 ```
 
-Obtiene la informaci ³n de todos los historicos de todos los Jobs cr -ticos que est ¡n siendo monitoreados en todos los servidores, marcados como cr -ticos.
+Obtiene la información de todos los historicos de todos los Jobs que están siendo monitoreados en todos los servidores.
 
 ## PARAMETERS
 
@@ -54,7 +55,7 @@ Accept wildcard characters: False
 ```
 
 ### -JobId
-Identificador  ºnico del Job.
+Identificador único del Job.
 
 ```yaml
 Type: Guid
@@ -69,10 +70,9 @@ Accept wildcard characters: False
 ```
 
 ### -Name
-Nombre con el que se registr ³ el job.
-Se admiten expresiones con el caracter comodin (\*).
-Por ejemplo: '\*Pru\*'.
-Valor predeterminado \*.
+Nombre con el que se registró el job. 
+Se admiten expresiones con el caracter comodin (\*). 
+Por ejemplo: '\*Pru\*'. Valor predeterminado \*.
 
 ```yaml
 Type: String
@@ -104,7 +104,8 @@ Accept wildcard characters: False
 ```
 
 ### -Monitored
-{{Fill Monitored Description}}
+Establece si se desea traer los Jobs que están siendo monitoreados o no. 
+Posible valores Monitored, Unmonitored y Both. Valor predeterminado Both.
 
 ```yaml
 Type: String
@@ -119,19 +120,15 @@ Accept wildcard characters: False
 ```
 
 ## INPUTS
-
-### Puede canalizar el valor de InputObject desde la funci ³n Get-MonitoredServer.
+Puede canalizar el valor de InputObject desde la función Get-MonitoredServer.
 
 ## OUTPUTS
-
-### Processa.Management.Automation.PSJobMonitor.SqlJobHistoryDetail
+Processa.Management.Automation.PSJobMonitor.SqlJobHistoryDetail
 
 ## NOTES
+Autor: Cfranco
 
 ## RELATED LINKS
 
-[[Get-MonitoredServer](Get-MonitoredServer.md)
-
-.NOTES:
-Autor: Cfranco]()
+[Get-MonitoredServer](https://github.com/RD-Processa/PSJobMonitor/blob/master/Scripting/getting-started/ConfigServers/Get-MonitoredServer.md)
 
