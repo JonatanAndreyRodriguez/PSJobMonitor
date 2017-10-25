@@ -12,7 +12,7 @@ Obtiene la información de los jobs registrados como criticos que están siendo 
 
 ## SYNTAX
 
-```
+```powershell
 Get-MonitoredJobCritical [-InputObject] <Object> [[-JobId] <Guid>] [[-Name] <String>]
 ```
 
@@ -22,7 +22,7 @@ Obtiene la información de los jobs registrados como criticos que están siendo 
 ## EXAMPLES
 
 ### -------------------------- EXAMPLE 1 --------------------------
-```
+```powershell
 Get-MonitoredServer | Get-MonitoredJobCritical
 ```
 
@@ -77,17 +77,17 @@ Accept wildcard characters: True
 ```
 
 ## INPUTS
-
-### Puede canalizar el valor de InputObject desde la función Get-MonitoredServer.
+Puede canalizar el valor de InputObject desde la función Get-MonitoredServer.
 
 ## OUTPUTS
-
-### Processa.Management.Automation.PSJobMonitor.SqlJobDetail
+Processa.Management.Automation.PSJobMonitor.SqlJobDetail
 
 ## NOTES
 Autor: Atorres
 
 ## RELATED LINKS
 
-[[Get-MonitoredJobNonCritical](Get-MonitoredJobNonCritical.md)]()
+[Get-MonitoredJobNonCritical](Get-MonitoredJobNonCritical.md)
+
+[Get-MonitoredServer](https://github.com/RD-Processa/PSJobMonitor/blob/master/Scripting/getting-started/ConfigServers/Get-MonitoredServer.md)
 
