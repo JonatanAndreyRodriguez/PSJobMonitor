@@ -12,17 +12,17 @@ Elimina la información de un Job del registro de monitoreo.
 
 ## SYNTAX
 
-```
+```powershell
 Remove-MonitoredJob [-JobId] <Guid>
 ```
 
 ## DESCRIPTION
-{{Fill in the Description}}
+Elimina la información de un Job del registro de monitoreo.
 
 ## EXAMPLES
 
 ### -------------------------- EXAMPLE 1 --------------------------
-```
+```powershell
 Get-MonitoredServer | Get-MonitoredJob | Remove-MonitoredJob
 ```
 
@@ -44,20 +44,17 @@ Accept wildcard characters: False
 ```
 
 ## INPUTS
-
-### Puede canalizar el valor de InputObject desde la función Get-MonitoredJob.
+Puede canalizar el valor de InputObject desde la función Get-MonitoredJob.
 
 ## OUTPUTS
-
-### System.Void
+System.Void
 
 ## NOTES
+Autor: Atorres
 
 ## RELATED LINKS
 
-[[Get-MonitoredJob](Get-MonitoredJob.md)]()
+[Get-MonitoredJob](https://github.com/RD-Processa/PSJobMonitor/blob/master/Scripting/getting-started/GetInfoJobs/Get-MonitoredJob.md)
 
-[[Get-MonitoredServer](Get-MonitoredServer.md)]()
-
-[[Enable-MonitoredJob](Enable-MonitoredJob.md)]()
+[Get-MonitoredServer](https://github.com/RD-Processa/PSJobMonitor/blob/master/Scripting/getting-started/ConfigServers/Get-MonitoredServer.md)
 
