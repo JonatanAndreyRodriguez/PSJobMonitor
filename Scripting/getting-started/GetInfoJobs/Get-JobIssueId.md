@@ -8,23 +8,26 @@ schema: 2.0.0
 # Get-JobIssueId
 
 ## SYNOPSIS
-Obtiene el n ºmero de Gemini asociado a un Job en la base de datos.
+Obtiene el número de Gemini asociado a un Job en la base de datos.
 
 ## SYNTAX
 
-```
+```powershell
 Get-JobIssueId [[-JobID] <Guid>] [[-ConnectionString] <String>]
 ```
 
 ## DESCRIPTION
-Obtiene el n ºmero de Gemini asociado a un Job en la base de datos. 
-Si el Job no existe  ³, no tiene un Gemini  ³, si tiene asociado un Gemini y  ©ste tiene estado Cerrado, 
-se devuelve 0, de lo contrario se devuelve el n ºmero de Gemini.
+Obtiene el número de Gemini asociado a un Job en la base de datos. 
+Este devuelve cero en los siguientes casos: 
+- Si el Job no existe.
+- Si el Job no tiene un Gemini asociado.
+- Si el Job tiene asociado un Gemini pero, este está en estado Cerrado.
+De lo contrario se devuelve el número de Gemini.
 
 ## EXAMPLES
 
 ### -------------------------- EXAMPLE 1 --------------------------
-```
+```powershell
 Get-JobIssueId
 ```
 
@@ -46,7 +49,7 @@ Accept wildcard characters: False
 ```
 
 ### -ConnectionString
-Cadena de conexi ³n a la base de datos de Monitor.
+Cadena de conexión a la base de datos de Monitor.
 
 ```yaml
 Type: String
@@ -64,7 +67,7 @@ Accept wildcard characters: False
 
 ## OUTPUTS
 
-### System.Boolean
+System.Boolean
 
 ## NOTES
 Autor: Carlos Franco
