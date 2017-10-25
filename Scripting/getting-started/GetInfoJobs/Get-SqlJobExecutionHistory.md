@@ -139,4 +139,4 @@ Processa.Automation.PSJobMonitor.SqlJobHistory
 Autor: Atorres
 
 ## RELATED LINKS
-[Get-SqlJobDetail](https://github.com/RD-Processa/PSJobMonitor/blob/master/Scripting/getting-started/ConfigServers/Get-MonitoredServer.md)
+[Get-SqlJobDetail](Get-SqlJobDetail)
