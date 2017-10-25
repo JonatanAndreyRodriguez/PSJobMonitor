@@ -8,30 +8,30 @@ schema: 2.0.0
 # Register-Gemini
 
 ## SYNOPSIS
-Registra  ³ Actualiza un Gemini existente relacionado a un Job.
+Registra o Actualiza un Gemini existente relacionado a un Job.
 
 ## SYNTAX
 
-```
+```powershell
 Register-Gemini [-InputObject] <Object>
 ```
 
 ## DESCRIPTION
-Registra  ³ Actualiza un Gemini existente relacionado a un Job.
-Adem ¡s, crea el Job si no existe y, hace env -o de Push
-solamente para Geminis nuevos y de jobs cr -ticos.
+Registra o Actualiza un Gemini existente relacionado a un Job. Además, registra el 
+Job en la base de Monitoreo si no existe y, hace envío de Push solamente para Geminis 
+nuevos y de jobs críticos.
 
 ## EXAMPLES
 
 ### -------------------------- EXAMPLE 1 --------------------------
-```
+```powershell
 Get-MonitoredServer | Get-SqlJobExecutionFailed | Register-Gemini
 ```
 
 ## PARAMETERS
 
 ### -InputObject
-Informaci ³n del job a reportar.
+Información del job a reportar.
 
 ```yaml
 Type: Object
@@ -46,19 +46,18 @@ Accept wildcard characters: False
 ```
 
 ## INPUTS
+Puede canalizar el valor de InputObject.
 
 ## OUTPUTS
-
-### System.Void
+System.Void
 
 ## NOTES
 Autor: Carlos Franco
 
 ## RELATED LINKS
 
-[[Get-MonitoredServer](Get-MonitoredServer.md)]()
+[Get-MonitoredServer](https://github.com/RD-Processa/PSJobMonitor/blob/master/Scripting/getting-started/ConfigServers/Get-MonitoredServer.md)
 
-[[Get-SqlJobExecutionFailed](Get-SqlJobExecutionFailed.md)]()
+[Get-SqlJobExecutionFailed](https://github.com/RD-Processa/PSJobMonitor/blob/master/Scripting/getting-started/GetInfoJobs/Get-SqlJobExecutionFailed.md)
 
-[[Register-Gemini](Register-Gemini.md)]()
 
