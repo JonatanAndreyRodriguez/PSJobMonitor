@@ -12,7 +12,7 @@ Elimina la información del historial de todos los Job del registro de monitoreo
 
 ## SYNTAX
 
-```
+```powershell
 Remove-MonitoredJobHistory [-JobId] <Guid>
 ```
 
@@ -22,19 +22,19 @@ Elimina la información del historial de todos los Job del registro de monitoreo
 ## EXAMPLES
 
 ### -------------------------- EXAMPLE 1 --------------------------
-```
+```powershell
 Get-MonitoredServer | Get-MonitoredJobHistory | Remove-MonitoredJobHistory
 ```
 
 ### -------------------------- EXAMPLE 2 --------------------------
-```
+```powershell
 Get-MonitoredServer | Get-MonitoredJobHistory -Name 'syspolicy_purge_history' | Remove-MonitoredJobHistory
 ```
 
 ## PARAMETERS
 
 ### -JobId
-{{Fill JobId Description}}
+Identificador del job que se debe eliminar.
 
 ```yaml
 Type: Guid
@@ -49,21 +49,16 @@ Accept wildcard characters: False
 ```
 
 ## INPUTS
-
-### Puede canalizar el valor de InputObject desde la función Get-MonitoredJob.
+Puede canalizar el valor de InputObject desde la función Get-MonitoredJob.
 
 ## OUTPUTS
-
-### System.Void
+System.Void
 
 ## NOTES
+Autor: CFranco
 
 ## RELATED LINKS
 
-[[Get-MonitoredServer](Get-MonitoredServer.md)]()
+[Get-MonitoredServer](https://github.com/RD-Processa/PSJobMonitor/blob/master/Scripting/getting-started/ConfigServers/Get-MonitoredServer.md)
 
-[[Get-MonitoredJobHistory](Get-MonitoredJobHistory.md)
-
-.NOTES:
-Autor: CFranco]()
-
+[Get-MonitoredJobHistory](https://github.com/RD-Processa/PSJobMonitor/blob/master/Scripting/getting-started/GetInfoJobs/Get-MonitoredJobHistory.md)
