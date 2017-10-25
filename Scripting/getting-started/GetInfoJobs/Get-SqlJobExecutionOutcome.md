@@ -13,12 +13,12 @@ Obtiene la información del resultado de la ejecución de los jobs.
 ## SYNTAX
 
 ### ByFrame (Default)
-```
+```powershell
 Get-SqlJobExecutionOutcome -InputObject <Object> [-Name <String>] [-OutcomesType <String>] [-Since <String>]
 ```
 
 ### ByDate
-```
+```powershell
 Get-SqlJobExecutionOutcome -InputObject <Object> [-Name <String>] [-OutcomesType <String>]
  -StartRunDate <DateTime>
 ```
@@ -29,14 +29,14 @@ Obtiene la información del resultado de la ejecución de uno o más jobs de acu
 ## EXAMPLES
 
 ### -------------------------- EXAMPLE 1 --------------------------
-```
+```powershell
 Get-MonitoredServer | Get-SqlJobExecutionOutcome
 ```
 
 Obtiene la información del resultado de todos los jobs en todos los servidores registrados.
 
 ### -------------------------- EXAMPLE 2 --------------------------
-```
+```powershell
 Get-MonitoredServer -Name 'MyServer' | Get-SqlJobExecutionOutcome -Name 'MyJob'
 ```
 
@@ -148,16 +148,15 @@ Accept wildcard characters: False
 ```
 
 ## INPUTS
-
-### Puede canalizar el valor de InputObject desde la función Get-MonitoredServer.
+Puede canalizar el valor de InputObject desde la función Get-MonitoredServer.
 
 ## OUTPUTS
-
-### Processa.Management.Automation.PSJobMonitor.SqlJobOutcome
+Processa.Management.Automation.PSJobMonitor.SqlJobOutcome
 
 ## NOTES
+Autor: Atorres
 
 ## RELATED LINKS
 
-[[Get-MonitoredServer](Get-MonitoredServer.md)]()
+[Get-MonitoredServer](https://github.com/RD-Processa/PSJobMonitor/blob/master/Scripting/getting-started/ConfigServers/Get-MonitoredServer.md)
 
