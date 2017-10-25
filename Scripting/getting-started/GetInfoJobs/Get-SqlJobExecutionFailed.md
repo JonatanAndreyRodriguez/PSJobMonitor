@@ -13,12 +13,12 @@ Obtiene la información de los jobs cuya ejecución ha finalizado con errores.
 ## SYNTAX
 
 ### ByFrame (Default)
-```
+```powershell
 Get-SqlJobExecutionFailed -InputObject <Object> [-Name <String>] [-Level <String>] [-Since <String>]
 ```
 
 ### ByDate
-```
+```powershell
 Get-SqlJobExecutionFailed -InputObject <Object> [-Name <String>] [-Level <String>] -StartRunDate <DateTime>
 ```
 
@@ -128,16 +128,15 @@ Accept wildcard characters: False
 ```
 
 ## INPUTS
-
-### Puede canalizar el valor de InputObject desde la función Get-MonitoredServer.
+Puede canalizar el valor de InputObject desde la función Get-MonitoredServer.
 
 ## OUTPUTS
-
-### Processa.Management.Automation.PSJobMonitor.SqlJobOutcome
+Processa.Management.Automation.PSJobMonitor.SqlJobOutcome
 
 ## NOTES
+Autor: Atorres
 
 ## RELATED LINKS
 
-[[Get-MonitoredServer](Get-MonitoredServer.md)]()
+[Get-MonitoredServer](https://github.com/RD-Processa/PSJobMonitor/blob/master/Scripting/getting-started/ConfigServers/Get-MonitoredServer.md)
 
