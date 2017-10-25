@@ -12,7 +12,7 @@ Obtiene la información de los jobs que se registraron para monitoreo, pero que 
 
 ## SYNTAX
 
-```
+```powershell
 Get-MonitoredJobMissing [-InputObject] <Object>
 ```
 
@@ -24,14 +24,14 @@ Puede utilizar la función Remove-MonitoredJob para eliminar esta información (
 ## EXAMPLES
 
 ### -------------------------- EXAMPLE 1 --------------------------
-```
+```powershell
 Get-MonitoredServer | Get-MonitoredJobMissing
 ```
 
 Obtiene la información de todos los jobs "desaparecidos" en todos los servidores registrados.
 
 ### -------------------------- EXAMPLE 2 --------------------------
-```
+```powershell
 Get-MonitoredServer | Get-MonitoredJobMissing | Remove-MonitoredJob
 ```
 
@@ -40,7 +40,8 @@ Elimina la información de todos los jobs "desaparecidos" en todos los servidore
 ## PARAMETERS
 
 ### -InputObject
-{{Fill InputObject Description}}
+Cadena de conexión que se debe agregar a los servidores que están siendo monitoreados.
+> NOTA: El usuario en la cadena de conexión debe tener permisos de conexión (al menos en modo lectura) con la base de datos msbd de la instancia especificada.
 
 ```yaml
 Type: Object
@@ -55,19 +56,17 @@ Accept wildcard characters: False
 ```
 
 ## INPUTS
-
-### Puede canalizar el valor de InputObject desde la función Get-MonitoredServer.
+Puede canalizar el valor de InputObject desde la función Get-MonitoredServer.
 
 ## OUTPUTS
-
-### Processa.Management.Automation.PSJobMonitor.SqlJobDetail
+Processa.Management.Automation.PSJobMonitor.SqlJobDetail
 
 ## NOTES
 Autor: Atorres
 
 ## RELATED LINKS
 
-[[Get-MonitoredServer](Get-MonitoredServer.md)]()
+[Get-MonitoredServer](https://github.com/RD-Processa/PSJobMonitor/blob/master/Scripting/getting-started/ConfigServers/Get-MonitoredServer.md)
 
-[[Remove-MonitoredJob](Remove-MonitoredJob.md)]()
+[Remove-MonitoredJob](https://github.com/RD-Processa/PSJobMonitor/blob/master/Scripting/getting-started/RemoveInfoJobs/Remove-MonitoredJob.md)
 
