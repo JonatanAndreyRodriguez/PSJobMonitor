@@ -8,43 +8,43 @@ schema: 2.0.0
 # Get-UnmonitoredJob
 
 ## SYNOPSIS
-Obtiene el listado de los jobs que se no se están monitoreando.
+Obtiene el listado de los jobs que no se están monitoreando.
 
 ## SYNTAX
 
-```
+```powershell
 Get-UnmonitoredJob [-InputObject] <Object> [[-JobId] <Guid>] [[-Name] <String>] [[-Level] <String>]
 ```
 
 ## DESCRIPTION
-Obtiene el listado de los jobs que se no se están monitoreando.
+Obtiene el listado de los jobs que no se están monitoreando.
 Los jobs se registran a través de la función Import-MonitoredJob.
 
 ## EXAMPLES
 
 ### -------------------------- EXAMPLE 1 --------------------------
-```
+```powershell
 Get-MonitoredServer | Get-UnmonitoredJob
 ```
 
 Obtiene la información de todos los jobs que se no se están monitoreando en todos los servidores.
 
 ### -------------------------- EXAMPLE 2 --------------------------
-```
+```powershell
 Get-MonitoredServer | Get-UnMonitoredJob  -Level Critical
 ```
 
 Obtiene la información de todos los jobs que se no se están monitoreando en todos los servidores, marcados como críticos.
 
 ### -------------------------- EXAMPLE 3 --------------------------
-```
+```powershell
 Get-MonitoredServer | Get-UnmonitoredJob  -Level NonCritical
 ```
 
 Obtiene la información de todos los jobs que se no se están monitoreando en todos los servidores, marcados como no críticos.
 
 ### -------------------------- EXAMPLE 4 --------------------------
-```
+```powershell
 Get-MonitoredServer | Get-UnmonitoredJob -Name 'Pru*'
 ```
 
@@ -118,18 +118,17 @@ Accept wildcard characters: False
 ```
 
 ## INPUTS
-
-### Puede canalizar el valor de InputObject desde la función Get-MonitoredServer.
+Puede canalizar el valor de InputObject desde la función Get-MonitoredServer.
 
 ## OUTPUTS
-
-### Processa.Management.Automation.PSJobMonitor.MonitoredJob
+Processa.Management.Automation.PSJobMonitor.MonitoredJob
 
 ## NOTES
+Autor: Atorres
 
 ## RELATED LINKS
 
-[[Get-MonitorServer](Get-MonitorServer.md)]()
+[Get-MonitorServer](https://github.com/RD-Processa/PSJobMonitor/blob/master/Scripting/getting-started/ConfigServers/Get-MonitoredServer.md)
 
-[[Get-MonitoredJob](Get-MonitoredJob.md)]()
+[Get-MonitoredJob](https://github.com/RD-Processa/PSJobMonitor/blob/master/Scripting/getting-started/ImportInfoJobs/Import-MonitoredJob.md)
 
