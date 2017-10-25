@@ -22,7 +22,7 @@ Este devuelve cero en los siguientes casos:
 - Si el Job no existe.
 - Si el Job no tiene un Gemini asociado.
 - Si el Job tiene asociado un Gemini pero, este está en estado Cerrado.
-De lo contrario se devuelve el número de Gemini.
+> De lo contrario se devuelve el número de Gemini.
 
 ## EXAMPLES
 
