@@ -12,7 +12,7 @@ Obtiene el listado de todos los jobs fallidos y registrados en la base de datos 
 
 ## SYNTAX
 
-```
+```powershell
 Get-MonitoredJobFailed [-InputObject <Object>] [-JobId <Guid>] [-Name <String>] [-FailureType <String>]
  [-StartRunDate <DateTime>]
 ```
@@ -24,7 +24,7 @@ Se pueden filtra por tipo de fallo, fecha, nombre y JobId.
 ## EXAMPLES
 
 ### -------------------------- EXAMPLE 1 --------------------------
-```
+```powershell
 Get-MonitoredServer | Get-MonitoredJobFailed
 ```
 
@@ -113,19 +113,14 @@ Accept wildcard characters: False
 ```
 
 ## INPUTS
-
-### Puede canalizar el valor de InputObject desde la función Get-MonitoredServer.
+Puede canalizar el valor de InputObject desde la función Get-MonitoredServer.
 
 ## OUTPUTS
-
-### Processa.Management.Automation.PSJobMonitor.SqlFailedJobDetail
+Processa.Management.Automation.PSJobMonitor.SqlFailedJobDetail
 
 ## NOTES
+Autor: CFranco
 
 ## RELATED LINKS
 
-[[Get-MonitoredServer](Get-MonitoredServer.md)
-
-.NOTES:
-Autor: CFranco]()
-
+[Get-MonitoredServer](https://github.com/RD-Processa/PSJobMonitor/blob/master/Scripting/getting-started/ConfigServers/Get-MonitoredServer.md)
