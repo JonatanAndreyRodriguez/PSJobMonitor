@@ -12,7 +12,7 @@ Obtiene un objeto de trabajo del Agente de SQL Server para cada tarea/job que es
 
 ## SYNTAX
 
-```
+```powershell
 Get-SqlJobDetail [-InputObject] <Object> [[-Name] <String>]
 ```
 
@@ -22,7 +22,7 @@ Obtiene un objeto de trabajo del Agente de SQL Server para cada tarea/job que es
 ## EXAMPLES
 
 ### -------------------------- EXAMPLE 1 --------------------------
-```
+```powershell
 Get-MonitoredServer | Get-SqlJobDetail
 ```
 
@@ -64,16 +64,15 @@ Accept wildcard characters: True
 ```
 
 ## INPUTS
-
-### Puede canalizar el valor de ConnectionString desde la función Get-MonitoredServer.
+Puede canalizar el valor de ConnectionString desde la función Get-MonitoredServer.
 
 ## OUTPUTS
-
-### Processa.Management.Automation.PSJobMonitor.SqlJobDetail
+Processa.Management.Automation.PSJobMonitor.SqlJobDetail
 
 ## NOTES
+Autor: Atorres
 
 ## RELATED LINKS
 
-[[Get-MonitoredServer](Get-MonitoredServer.md)]()
+[Get-MonitoredServer](https://github.com/RD-Processa/PSJobMonitor/blob/master/Scripting/getting-started/ConfigServers/Get-MonitoredServer.md)
 
