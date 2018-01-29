@@ -46,7 +46,7 @@ Marca el trabajo 'Cargue Bloqueos Tarjetas Cafam' como no crítico. También se 
 Get-MonitoredServer | Get-MonitoredJob -Name 'Cargue Bloqueos Tarjetas Cafam' | Set-MonitoredJobLevel -Critical
 ```
 
-Marca el trabajo 'Cargue Bloqueos Tarjetas Cafam' como crítico.
+Marca el trabajo 'Cargue Bloqueos Tarjetas Cafam' como crítico. También se puede usar el valor -JobId en lugar de -Name después de la función Get-MonitoredJob.
 
 ## PARAMETERS
 
