@@ -34,6 +34,20 @@ Get-MonitoredServer | Get-MonitoredJob | Set-MonitoredJobLevel -NonCritical
 
 Establece todos los trabajos registrados como no criticos.
 
+### -------------------------- EXAMPLE 3 --------------------------
+```powershell
+Get-MonitoredServer | Get-MonitoredJob -Name 'Cargue Bloqueos Tarjetas Cafam' | Set-MonitoredJobLevel -NonCritical
+```
+
+Marca el trabajo 'Cargue Bloqueos Tarjetas Cafam' como no crítico. También se puede usar el valor -JobId en lugar de -Name después de la función Get-MonitoredJob.
+
+### -------------------------- EXAMPLE 4 --------------------------
+```powershell
+Get-MonitoredServer | Get-MonitoredJob -Name 'Cargue Bloqueos Tarjetas Cafam' | Set-MonitoredJobLevel -Critical
+```
+
+Marca el trabajo 'Cargue Bloqueos Tarjetas Cafam' como crítico.
+
 ## PARAMETERS
 
 ### -InputObject
